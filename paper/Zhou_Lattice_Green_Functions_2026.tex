@@ -118,6 +118,9 @@ the celebrated triple integral
   \frac{\dd\theta_1 \dd\theta_2 \dd\theta_3}{3 - \cos\theta_1 - \cos\theta_2 - \cos\theta_3}
   \;=\; \frac{\sqrt{6}}{32\pi^3}\,\Gamma\!\Bigl(\frac{1}{4}\Bigr)^{\!4}.
 \]
+In our normalization \eqref{eq:lgf-def}, the lattice Green function carries an extra factor of $d$,
+so $G_3(0) = 3\,W_S = \frac{3\sqrt{6}}{32\pi^3}\,\Gamma(1/4)^4$.
+
 Joyce (1994, 2002) \cite{Joyce1994,Joyce2002} and Glasser--Zucker \cite{GlasserZucker1977}
 extended Watson's results to the BCC and FCC lattices, and to various related integrals in $d = 3$.
 All known closed forms for the three-dimensional case involve products of $\Gamma(p/q)$ at
@@ -126,7 +129,7 @@ small rational arguments.
 However, for $d \geq 4$, \emph{no exact closed-form expressions are known},
 despite extensive numerical and analytic investigations \cite{Guttmann2009,Zucker2011,BBC2006}.
 
-The generating function $p(z) = \sum_{n=0}^\infty c_n z^n$ satisfies a linear differential operator
+The generating function $P_d(z) = \sum_{n=0}^\infty c_n z^n$ satisfies a linear differential operator
 that grows rapidly in complexity with dimension. For $d = 4$ (simple cubic lattice),
 the walk numbers $c_n$ begin:
 \[
@@ -674,7 +677,7 @@ Based on our findings, we propose the following conjectures:
 
 \begin{conjecture}\label{conj:transcendental}
   For all $d \geq 4$, the lattice Green function $G_d(0)$ is a transcendental number not expressible
-  as a finite combination of algebraic numbers, $\pi$, $\Gamma(p/q)$ with $q \leq 100$, and
+  as a finite combination of algebraic numbers, $\pi$, $\Gamma(p/q)$ with $q \leq 24$, and
   classical hypergeometric values.
 \end{conjecture}
 
